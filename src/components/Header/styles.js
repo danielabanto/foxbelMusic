@@ -10,7 +10,8 @@ export const Container = styled.div`
   }
   & div:first-child .fas{
     position: absolute;
-    top: 7px;
+    padding: 5px;
+    top: 3px;
     right: 10px;
     color: gray;
   }
@@ -21,6 +22,9 @@ export const Container = styled.div`
     margin-right: 10px;
     color: var(--red-principal)
   }
+  & form button:hover{
+    cursor: pointer;
+  }
 `
 export const Input = styled.input`
   width: 524px;
@@ -28,4 +32,9 @@ export const Input = styled.input`
   border-radius: 10px;
   border: 1px solid #828282;
   outline: none;
+`
+
+export const Charging = styled.p`
+  color: gray;
+  margin: 10px;
 `

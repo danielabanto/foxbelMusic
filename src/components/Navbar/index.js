@@ -17,7 +17,7 @@ const NavbarItem = ({items}) => (
     <Ul>
       {
         items.items.map((item) => (
-          <A href="/" key={item}>
+          <A key={item}>
             <Li>{item}</Li>
           </A>
         ))
@@ -30,7 +30,7 @@ export const Navbar = () => {
   return(
     <Container>
       <div>
-        <div href="/">
+        <div>
           <Figure>
             <img width="250" src="http://drive.google.com/uc?export=view&id=1jlj6CdEj8D-jXXTHKwGmaGG0AJMkkxZL" alt="logo"/>
             {/* https://drive.google.com/file/d/1jlj6CdEj8D-jXXTHKwGmaGG0AJMkkxZL/view?usp=sharing */}

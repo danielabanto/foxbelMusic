@@ -28,4 +28,7 @@ export const A = styled.a`
   &active {
     color: yellow;
   }
+  &:hover{
+    cursor: pointer;
+  }
 `

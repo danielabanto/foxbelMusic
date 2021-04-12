@@ -27,7 +27,7 @@ const Result = ({resultado, count}) => {
 /*COMPONENTE RESULTS LIST*/
 const Results = () => {
   const resultado =  useContext(TracksContext)
-  console.log('resultado', resultado)
+  // console.log('resultado', resultado)
   return(
     <> 
       {
@@ -69,7 +69,7 @@ export const MainComp = () => {
             <ButtonContainer>
               <Button1 onClick={() => handleClick(mainTrack)}>Reproducir</Button1>
               <Button2>Seguir</Button2>
-              <a href="/"><span></span><span></span><span></span></a>
+              <a ><span></span><span></span><span></span></a>
             </ButtonContainer>
           </HeroDetailContainer>
         </HeroDetailBackground>
